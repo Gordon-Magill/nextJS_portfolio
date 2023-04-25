@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Create Next App, now defined in the Head component so that nextJS can modify the head of the HTML document</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
